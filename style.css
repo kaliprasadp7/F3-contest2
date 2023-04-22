@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.main-heading{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn{
+    width: 200px;
+    height: 30px;
+    font-size: 17px;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+}
+.geo-div{
+    margin:100px
+}
+.geo-div>div{
+    display: flex;
+    gap: 50%;
+    font-size: 20px;
+}
+
+/* weather div */
+.weather-div{
+    border: 1px solid white;
+    margin: 50px;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.flex{
+    display: flex;
+    gap: 45%;
+}
+.map{
+    margin-top: 30px;
+}
+.show-div{
+    display: none;
+}
