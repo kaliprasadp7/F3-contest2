@@ -29,6 +29,9 @@ body{
 
 /* weather div */
 .weather-div{
+    background-color: white;
+    color: black;
+    font-weight: 400;
     border: 1px solid white;
     margin: 50px;
     padding: 30px;
